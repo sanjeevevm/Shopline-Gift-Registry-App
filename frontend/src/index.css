@@ -1,0 +1,242 @@
+main{
+  min-height: 88vh;
+}
+.navClass{
+  background-color: #fff;
+  box-shadow: 0 0 1px rgba(0,0,0,0.2);
+}
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
+  color: #000;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #000;
+}
+.display_none {
+  display: none;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #000;
+}
+.btn-outline-success {
+  color: #000;
+  border-color: #000;
+  line-height: 20px;
+}
+h3{
+  padding: 1rem 0;
+}
+
+
+h1{
+  font-size: 1.4rem;
+  padding: 0.1rem;
+}
+
+h2{
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+.rating span{
+  margin: 0.1em;
+}
+
+#logo{
+  max-width: 7%;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active{
+  display: flex;
+}
+
+.carousel-caption{
+  position: absolute;
+  top:0
+}
+
+.carousel-caption h2{
+  color:#fff
+}
+
+.carousel img {
+  height: 390px;
+  /*padding: 20px;
+  margin: 40px;*/
+}
+
+
+.carousel a{
+  margin: 0 auto;
+}
+
+
+
+.slika{
+  width: 300px;
+  height: 76px;
+  object-fit: cover;
+  margin-left: 280px;
+}
+
+.evm-gift-btn {
+  border: 0 none;
+  border-radius: 0px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  padding: 15px 40px !important;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight:700;
+}
+.evm-button .active{
+  border: 0 none;
+  border-radius: 0px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  padding: 15px 40px !important;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight:700;
+  background: #d26a5c;
+  color: #fff;
+}
+.evm-gift-btn.search{
+  background: #d26a5c;
+  color: #fff;
+}
+.evm-gift-btn.create{
+  background: #d26a5c;
+  color: #fff;
+}
+.evm-gift-btn.manage{
+  background: #d26a5c;
+  color: #fff;
+}
+.tab-buttons.evm-button {
+  text-align: center;
+  padding: 30px 0;
+}
+.heading-name-evm {
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px 0;
+}
+.form-wrapper {
+  /* max-width: 600px; */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-fields {
+  margin-top: 20px;
+}
+
+.form-control {
+  margin-bottom: 0px;
+  height: auto;
+}
+
+.form-control label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-control input,
+.form-control select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-control input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-control input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.half-width {
+  width: 48%;
+}
+.aaagift-find-form.custom-registry-form {
+  width: 100%;
+  max-width: 100%;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.one-third-width {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-basis: 39%;
+  flex-basis: 39%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  -moz-box-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+}
+.find_registry_wrapper {
+  padding: 41px 37px;
+  margin-bottom: 50px;
+  box-shadow: 0px 3px 36px rgba(0, 0, 0, 0.07);
+}
+.custom-registry-button {
+  -webkit-flex-basis: 20%;
+  flex-basis: 20%;
+}
+.semi-width-left, .one-third-width-left {
+  padding-right: 18px;
+}
+.full-width {
+  float: left;
+  width: 100%;
+  max-width: 100%;
+}
+.form-horizontal button.btn.btn-primary.aaa_find_registry {
+  width: 100% !important;
+}
+.aaagift-find-form {
+  width: 400px;
+  max-width: 95%;
+  margin: 0 auto;
+}
+.semi-width-right, .one-third-width-right {
+  padding-left: 18px;
+}
+
+/* Adjust the form layout for smaller screens */
+@media (max-width: 480px) {
+  .half-width {
+    width: 100%;
+  }
+}

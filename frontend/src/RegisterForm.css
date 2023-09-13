@@ -1,0 +1,11 @@
+* { margin: 0; padding: 0; }
+.create-registry-wr { padding: 30px; box-shadow: 0 0 10px #ccc; width: 830px; margin: 50px auto; }
+.create-registry-wr h2 { margin-bottom: 30px; }
+.form-wrapper .form-fields { display: flex; flex-wrap: wrap; justify-content: space-between; padding-bottom: 10px; border-bottom: 10px solid #ccc9; margin-bottom: 20px; }
+.form-wrapper .form-fields:last-child { padding: 0; margin: 0; border: none; }
+.create-registry-wr h4 { margin-bottom: 10px; }
+.form-control { width: 100%; }
+.form-control.half-width { width: 49%; }
+.form-control input, .form-control select { width: 100%; padding: 10px; box-sizing: border-box; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px; }
+.form-control label { display: block; text-transform: uppercase; margin-bottom: 5px; }
+.form-control .submit-rgstry { padding: 10px; display: block; text-transform: uppercase; font-size: 16px; line-height: 1.3em; margin-top: 20px; background-color: #5C90D2; color: #fff; border-color: #5C90D2; }
