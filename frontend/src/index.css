@@ -234,6 +234,11 @@ h2{
   padding-left: 18px;
 }
 
+.main_component_division {
+  display: flex;
+  width: 100%;
+}
+
 /* Adjust the form layout for smaller screens */
 @media (max-width: 480px) {
   .half-width {
